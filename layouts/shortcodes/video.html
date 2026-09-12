@@ -1,0 +1,8 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+<div class="media-wrap" style="max-width: 550px">
+  <div class="media-sizer" style="padding-bottom: 50%">
+    <video controls>
+      <source src="/videos/{{ $src }}" />
+    </video>
+  </div>
+</div>
