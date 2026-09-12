@@ -34,6 +34,20 @@ The desync is caused by playing slower or faster than the soundtrack while in fi
 A workaround to survive as Aria is to play the Lute at the same time as the game exits peaceful mode.
 This can for example be achieved by bombing an Armos Statue or bush and playing the lute at the same time.
 
+### First beat of boss fights
+
+This only happens when **not** in Fixed Beat mode. Some items can behave strangely if used immidiately at the start of boss fights. This is most easily observable with the Pegasus Anklet:
+{{<video anklet-beat-0-charge-1.mp4>}}
+
+Using it on the 1st beat of a boss causes it to charge for 1 beat less than you actually took to charge it. In the video above, this results in the normally-impossible charge of 0 beats which then provides no movement at all.
+
+Similarly, charging it for 2 beats provides a charge that normally requires only 1:
+{{<video anklet-beat-0-charge-2.mp4>}}
+
+And finally, charging it for 3 beats charges it fully:
+{{<video anklet-beat-0-charge-3.mp4>}}
+
+
 ## Version 1.4
 
 ### Unreliable Leaderboards
