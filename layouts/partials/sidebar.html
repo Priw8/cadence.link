@@ -8,7 +8,9 @@
   <div class="menu-top global-box">
     <div class="menu-container">
       <div class="logo">
-        {{ partial "img" (dict "src" "/img/logo.png" "align" "center" "alt" "cadence.link logo") }}
+        <a href="/">
+          {{ partial "img" (dict "src" "/img/logo.png" "align" "center" "alt" "cadence.link logo") }}
+        </a>
       </div>
       <div class="menu-title">Content</div>
       {{ if .Site.Menus.main }}
